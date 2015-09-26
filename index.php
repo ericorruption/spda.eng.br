@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SPDA Engenharia+Projetos</title>
-    <meta name="description" content="Produzimos projetos de engenharia de qualidade. Situada em Porto Alegre/RS" />
+    <meta name="description" content="Produzimos projetos e serviços de qualidade. Situada em Porto Alegre/RS" />
 
     <!-- Default favicons. You should have at least two 16px icons: -->
     <!-- one .png and one .ico file in your root for this to work. -->
@@ -39,7 +39,7 @@
             <a href="#contato" class="std-btn main-nav-item">Contato</a>
         </nav>
 
-        <p class="main-tagline">Somos a SPDA.<br/> Produzimos projetos de engenharia de qualidade.</p>
+        <p class="main-tagline">Somos a SPDA.<br/> Produzimos projetos e serviços de qualidade.</p>
     </div>
 </header>
 
@@ -144,9 +144,9 @@
 
             <p>Ainda dentro de uma grande empresa, o sócio-fundador da SPDA construiu uma reputação de encarar e resolver qualquer trabalho, até os que chegavam abaixo de mau tempo.</p>
 
-            <p>SPDA significa "Sistema de Proteção contra Descargas Atmosféricas", vulgo "para-raios". Esse nome é uma representação exata para o que buscamos em nosso trabalho.</p>
+            <p>SPDA significa "Sistema de Proteção contra Descargas Atmosféricas", vulgo "para-raios". Esse nome é uma representação exata para o que buscamos em nosso trabalho: atender nossos clientes fornecendo projetos e serviços de qualidade dentro das melhores soluções técnicas com custos e prazos reduzidos.</p>
 
-            <p class="illustration-paragraph">Acreditamos que <em>trabalho cuidadoso</em> durante a fase de projeto <em>reduz a probabilidade de problemas</em> na execução da obra, provém <em>melhor controle de custos</em> e garante <em>qualidade superior</em> no produto final. Além disso, o mesmo trabalho de qualidade nos permite propor soluções técnicas elegantes, seguras e funcionais.</p>
+            <p>Acreditamos que o <em>trabalho cuidadoso</em> durante a fase de projeto <em>reduz a ocorrência de problemas</em> durante a execução das obras, provendo <em>melhor controle de custos e esforços</em> e garantindo <em>qualidade superior</em> no produto final.</p>
         </div>
     </article>
 
@@ -240,13 +240,14 @@
             <h2 class="article-title" id="contato"><span>Contato</span></h2>
 
             <div class="contact-article-content">
-                <p class="contact-info telephone"><span class="contact-info-title">Telefone:</span> <a href="tel:555132351533">+55 (51) 3235.1533</a></p>
+                <p class="contact-info telephone"><span class="contact-info-title">Telefone:</span> <a href="tel:555132351533">+55 (51) 3235.1533</a><br/> <a href="tel:555199459622">+55 (51) 9945.9622</a></p>
 
                 <p class="contact-info address">
-                    <a href="https://www.google.com.br/maps?q=Av.+Get%C3%BAlio+Vargas,+901+-+Cj.+506+Porto+Alegre%2FRS&ie=UTF8&ll=-30.052602,-51.222596&spn=0.012611,0.022724&sll=-30.052782599999627,-51.22168501651431&sspn=0.00723439859431717,0.015450120676564816&t=m&dg=opt&hnear=Av.+Get%C3%BAlio+Vargas,+901+-+Menino+Deus,+Porto+Alegre+-+Rio+Grande+do+Sul,+90150-003&z=16" target="_blank">
-                        <strong>Centro Empresarial Getúlio Vargas</strong><br/>
-                        Av. Getúlio Vargas, 901 - Cj. 506<br/>
-                        CEP 90150-003 - Porto Alegre/RS
+                    <a href="https://www.google.com.br/maps?q=Av.+Get%C3%BAlio+Vargas,+1157+-+Cj.+1408+Porto+Alegre%2FRS&ie=UTF8&ll=-30.052602,-51.222596&spn=0.012611,0.022724&sll=-30.052782599999627,-51.22168501651431&sspn=0.00723439859431717,0.015450120676564816&t=m&dg=opt&hnear=Av.+Get%C3%BAlio+Vargas,+1157+-+Menino+Deus,+Porto+Alegre+-+Rio+Grande+do+Sul,+90150-005&z=16" target="_blank">
+                        <strong>Getúlio Vargas Prime Offices</strong><br/>
+                        Av. Getúlio Vargas, 1157 - Cj. 1408<br/>
+                        Bairo Menino Deus - Porto Alegre/RS<br/>
+                        CEP 90150-005
                     </a>
                 </p>
 
@@ -294,7 +295,7 @@
 </main>
 
 <footer class="main-footer" role="contentinfo">
-    <p class="main-footer-text">&copy; 2013 SPDA Engenharia<br/>
+    <p class="main-footer-text">&copy; 2007 SPDA Engenharia<br/>
     CREA-RS 192621</p>
 
     <p class="main-footer-author">Site:
