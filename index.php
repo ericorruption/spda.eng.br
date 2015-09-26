@@ -38,6 +38,7 @@
         <nav class="nav main-nav" role="navigation" id="nav">
             <a href="#o-que-fazemos" class="std-btn main-nav-item">O que fazemos?</a>
             <a href="#quem-somos" class="std-btn main-nav-item">Quem somos?</a>
+            <a href="#como-fazemos" class="std-btn main-nav-item">Como fazemos?</a>
             <a href="#clientes" class="std-btn main-nav-item">Clientes</a>
             <a href="#contato" class="std-btn main-nav-item">Contato</a>
         </nav>
@@ -58,7 +59,7 @@
                 </div>
 
                 <h3 class="service-title">Instalações Elétricas</h3>
-                <p>Projetos em Baixa e Média Tensão</p>
+                <p>Projetos de Instalações Elétricas Industriais, Comerciais e Residenciais em Baixa e Média Tensões</p>
             </section>
 
             <section class="service-item">
@@ -69,7 +70,7 @@
                 </div>
 
                 <h3 class="service-title">Cabeamento Estruturado</h3>
-                <p>Projetos de Redes de Lógica e Telecomunicações</p>
+                <p>Projetos de Redes de Lógica, Cabeamento Estruturado, Telefonia e Comunicações</p>
             </section>
 
             <section class="service-item">
@@ -80,7 +81,7 @@
                 </div>
 
                 <h3 class="service-title">SPDA (é claro!)</h3>
-                <p>Projetos de Sistemas de Proteção contra Descargas Atmosféricas, Aterramentos e Equipotencialização</p>
+                <p>Projetos, Laudos Técnicos, Verificações e Medições de SPDA e Aterramentos</p>
             </section>
 
             <section class="service-item">
@@ -90,8 +91,19 @@
                     </div>
                 </div>
 
-                <h3 class="service-title">Entrada de Energia</h3>
-                <p>Projetos de Subestações, Tarifação, Fator de Potência, Entrada e Medição, Grupos Geradores e UPS</p>
+                <h3 class="service-title">Energia</h3>
+                <p>Projetos de Entrada e Medição de Energia Elétrica, Subestações, Eficiência Energética e Aprovações em Concessionárias</p>
+            </section>
+
+            <section class="service-item">
+                <div class="service-image-wrapper">
+                    <div class="service-image-background">
+                        <img src="img/o-que-fazemos/laudos.png" class="service-image" />
+                    </div>
+                </div>
+
+                <h3 class="service-title">Laudos Elétricos<br/> e de SPDA</h3>
+                <p>Laudos das Instalações Elétricas conforme a NBR 5410 e NR10 e Laudos de SPDA conforme a nova NBR 5419-2-15</p>
             </section>
 
             <section class="service-item">
@@ -102,7 +114,7 @@
                 </div>
 
                 <h3 class="service-title">PPCI</h3>
-                <p>Projetos de Prevenção, Detecção e Combate a Incêndios</p>
+                <p>Projetos de PPCI / PSPCI, Alarmes de Detecção e Combate a Incêndios</p>
             </section>
 
             <section class="service-item">
@@ -112,8 +124,8 @@
                     </div>
                 </div>
 
-                <h3 class="service-title">Segurança Eletrônica</h3>
-                <p>Projetos de CFTV, Alarmes de Intrusão, Controles de Acesso e Automação</p>
+                <h3 class="service-title">Segurança e Automação</h3>
+                <p>Projetos de CFTV, Alarmes, Sonorização, Multimídia, Controle de Acesso, Automação Industrial e Residencial</p>
             </section>
 
             <section class="service-item">
@@ -123,8 +135,8 @@
                     </div>
                 </div>
 
-                <h3 class="service-title">Engenharia Consultiva</h3>
-                <p>Avaliações, Vistorias, Fiscalizações de Obras e Consultorias em Eficiência Energética</p>
+                <h3 class="service-title">Consultoria em Engenharia</h3>
+                <p>Laudos das Instalações Elétricas, Laudos e Cálculos de SPDA, Vistorias, Acompanhamento e Fiscalizações de Obras.</p>
             </section>
 
             <section class="service-item">
@@ -134,8 +146,8 @@
                     </div>
                 </div>
 
-                <h3 class="service-title">Projetos Suplementares</h3>
-                <p>Projetos de Arquitetura e Climatização</p>
+                <h3 class="service-title">Projetos Completos</h3>
+                <p>Projetos Integrados de Arquitetura, Civil, Estrutura, Hidrossanitário, Elétrica, Lógica e Telefonia, Segurança Eletrônica, Ar-condicionado e Climatização e PPCI</p>
             </section>
     </article>
 
