@@ -200,9 +200,23 @@
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
+                        <img class="client-list-image" src="img/clientes/receita-federal.png" />
+                    </div>
+                    <h3 class="client-list-title">Receita Federal</h3>
+                </li>
+
+                <li class="client-list-item">
+                    <div class="client-list-image-wrapper">
                         <img class="client-list-image" src="img/clientes/taurus.png" />
                     </div>
                     <h3 class="client-list-title">Taurus</h3>
+                </li>
+
+                <li class="client-list-item">
+                    <div class="client-list-image-wrapper">
+                        <img class="client-list-image" src="img/clientes/unimed.png" />
+                    </div>
+                    <h3 class="client-list-title">Unimed</h3>
                 </li>
 
                 <li class="client-list-item">
