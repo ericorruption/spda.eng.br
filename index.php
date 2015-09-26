@@ -58,7 +58,7 @@ if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['telefone'])
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SPDA Engenharia+Projetos</title>
-    <meta name="description" content="Engenharia elétrica clara e de qualidade. Situada em Porto Alegre/RS" />
+    <meta name="description" content="Produzimos projetos de engenharia de qualidade. Situada em Porto Alegre/RS" />
 
     <!-- Default favicons. You should have at least two 16px icons: -->
     <!-- one .png and one .ico file in your root for this to work. -->
@@ -90,7 +90,7 @@ if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['telefone'])
             <a href="#contato" class="std-btn main-nav-item">Contato</a>
         </nav>
 
-        <p class="main-tagline">Somos a SPDA.<br/> Produzimos engenharia elétrica de qualidade.</p>
+        <p class="main-tagline">Somos a SPDA.<br/> Produzimos projetos de engenharia de qualidade.</p>
     </div>
 </header>
 
