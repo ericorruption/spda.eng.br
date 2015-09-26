@@ -6,6 +6,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
     <title>SPDA Engenharia+Projetos</title>
     <meta name="description" content="Produzimos projetos e serviços de qualidade. Situada em Porto Alegre/RS" />
 
@@ -19,10 +23,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script>window.html5 || document.write('<script src="js/libs/html5.min.js"><\/script>')</script>
-    <script src="js/libs/respond.min.js"></script>
-    <![endif]-->
+    <script src="https://cdn.polyfill.io/v1/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js">
+    </script><![endif]-->
 </head>
 <body>
 <header class="main-header" role="banner" id="top">
@@ -305,8 +308,7 @@
     </p>
 </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/libs/jquery.smooth-scroll.min.js"></script>
 <script src="js/libs/jquery.validate.min.js"></script>
 <script src="js/libs/jquery.placeholder.min.js"></script>
@@ -317,7 +319,8 @@ e=o.createElement(i);r=o.getElementsByTagName(i)[0];
 e.src='//www.google-analytics.com/analytics.js';
 r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 ga('create','UA-37069465-1');ga('send','pageview');
-(function($){
+
+(function($) {
     $.extend($.validator.messages, {
         required: 'Todos os campos são obrigatórios!',
         email: 'Preencha com um e-mail válido.'
@@ -327,6 +330,7 @@ ga('create','UA-37069465-1');ga('send','pageview');
         speed: 1000,
         offset: -20
     });
+
     $('#contact-form').validate({
         showErrors: function(){
             $('#error-msg').remove();
@@ -334,7 +338,7 @@ ga('create','UA-37069465-1');ga('send','pageview');
         },
         errorPlacement: function(error, element) {
             $('#error-msg').remove();
-            $('<p class="error-msg" id="error-msg">' + error.text() + '</p>').insertAfter('#send-form');
+            $('<p class="error-msg" id="error-msg">' + error.text() + '<\/p>').insertAfter('#send-form');
         },
         submitHandler: function(form) {
             var $form = $(form),
@@ -349,16 +353,17 @@ ga('create','UA-37069465-1');ga('send','pageview');
             });
         }
     });
+
     $('input.std-input, textarea.std-input').placeholder();
-    $('#reset-form').on('click', function(e){
+
+    $('#reset-form').on('click', function(e) {
         $(this).parent().parent().removeClass('success');
         e.preventDefault();
     });
 
     var $top = $('#top');
 
-    // TODO: Mask / validate telephone ?
-    $(window).load(function(){
+    $(window).load(function() {
         $(window).on('resize', function() {
             var windowHeight = $(window).height(),
                 contentHeight = $top.children().height();
@@ -378,7 +383,7 @@ ga('create','UA-37069465-1');ga('send','pageview');
 
         $(window).on('scroll', function() {
             var scrollTop = $(window).scrollTop();
-            if (scrollTop > 1220) {
+            if (scrollTop > 980) {
                 $backToTop.addClass('visible');
 
             } else {
