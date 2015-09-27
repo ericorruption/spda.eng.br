@@ -1,0 +1,23 @@
+@media only screen and (min-width: 57.75em){ //924px
+  .client-list{
+    text-align: left;
+  }
+}
+
+.client-list-item{
+  display: inline-block;
+  list-style: none;
+  margin: 0 1.125em 2.25em;
+}
+
+.client-list-image-wrapper{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 12em;
+  height: 6.5em;
+}
+
+.client-list-title{
+  @extend %visuallyhidden;
+}

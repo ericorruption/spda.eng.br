@@ -1,0 +1,39 @@
+// FONT FACE
+//
+// @include font-face(Vegur, '../fonts/vegur-regular-webfont');
+@include font-face(museo, '../fonts/Museo300-Regular-webfont');
+@include font-face(museo, '../fonts/Museo500-Regular-webfont', 500);
+@include font-face(museo, '../fonts/Museo700-Regular-webfont', 700);
+
+.article-title{
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 1px 1px 4px rgba(0,0,0,.2);
+  @include rem(font-size, 48px);
+  @include smooth();
+
+  @media (min-width: 35em) {
+    overflow: hidden;
+
+    span{
+      display: inline-block;
+      position: relative;
+
+      &:before, &:after {
+        position: absolute;
+        top: 50%;
+        width: 1000px;
+        height: 1px;
+        content: '';
+        background: $brand-red;
+      }
+      &:before {
+        left: -1020px;
+      }
+      &:after {
+        right: -1020px;
+      }
+    }
+  }
+}

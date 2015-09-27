@@ -1,0 +1,31 @@
+.service-item{
+  vertical-align: top;
+  display: inline-block;
+  //max-width: 24%;
+  width: 99%;
+  text-align: center;
+  margin: 0 0.5% 2.25em;
+
+  @media (min-width: 30em) {
+    width: 48%;
+  }
+
+  @media only screen and (min-width: 38em) { // 608px
+    width: 31%;
+  }
+
+  p{
+    font-weight: 300;
+    margin: 0.5em auto;
+    max-width: 13.5em;
+    //@include rem(font-size, 12px);
+  }
+}
+
+.service-title{
+  font-weight: 500;
+  line-height: 1.2;
+  @include rem(font-size, 18px);
+  @include smooth();
+  //@include rem(font-size, 14px);
+}

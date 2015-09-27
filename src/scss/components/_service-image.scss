@@ -1,0 +1,45 @@
+.service-image{
+  position: relative;
+  z-index: 4;
+}
+
+.service-image-wrapper{
+  margin: 0 auto 1.5em;
+  width: 160px;
+  position: relative;
+
+  &:hover .service-image-background:after{
+    opacity: 1;
+  }
+}
+
+.service-image-background{
+  display: table-cell;
+  background: $brand-red;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  vertical-align: middle;
+  @include border-radius(50%);
+  position: relative;
+
+  &:after{
+    content: '';
+    display: block;
+    opacity: 0;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include border-radius(50%);
+    @include background-image(radial-gradient(center, ellipse cover, #f6003e 0%,#b5002e 100%));
+    // background: -moz-radial-gradient(center, ellipse cover, #f6003e 0%, #b5002e 100%); /* FF3.6+ */
+    // background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f6003e), color-stop(100%,#b5002e)); /* Chrome,Safari4+ */
+    // background: -webkit-radial-gradient(center, ellipse cover, #f6003e 0%,#b5002e 100%); /* Chrome10+,Safari5.1+ */
+    // background: -o-radial-gradient(center, ellipse cover, #f6003e 0%,#b5002e 100%); /* Opera 12+ */
+    // background: -ms-radial-gradient(center, ellipse cover, #f6003e 0%,#b5002e 100%); /* IE10+ */
+    // background: radial-gradient(ellipse at center, #f6003e 0%,#b5002e 100%);
+    @include transition();
+  }
+}

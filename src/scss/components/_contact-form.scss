@@ -1,0 +1,47 @@
+.contact-form{
+  position: relative;
+  padding-top: 1em;
+
+  &:before{
+    content: '';
+    border-top: 1px solid $brand-red;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    right: 2em;
+  }
+
+  @media (min-width: 35em) {
+    padding: 0 0 0 2em;
+    border-left: 1px solid $brand-red;
+    overflow: hidden;
+
+    &:before{
+      display: none;
+    }
+  }
+}
+
+.send-form-btn{
+  background-color: #e6e6e6;
+  width: 100%;
+  line-height: 2.15;
+  @include rem(font-size, 21px);
+  margin: 0.25em 0;
+  &:hover{
+    @include background-image(linear-gradient(bottom, rgba(255,255,255,.2), rgba(0,0,0,.05)), url(../img/button.png));
+  }
+
+  &:active{
+    @include box-shadow(1px 1px 1px rgba(0,0,0,.1),
+                  inset 1px 1px 6px rgba(0,0,0,.5),
+                  inset 0 0 0 3px rgba(255,255,255,.5));
+  }
+
+  @media (min-width: 35em) {
+    padding: 0 1.375em;
+    width: auto;
+    float: left;
+  }
+}

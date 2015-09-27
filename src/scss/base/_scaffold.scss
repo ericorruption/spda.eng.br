@@ -1,0 +1,140 @@
+// default full width column
+%content-block {
+  margin: 0 auto;
+  padding: 0 2%;
+  max-width: 58.75em;
+}
+
+.std-article{
+  font-weight: 500;
+  padding: 4em 0;
+  //padding: 24% 0;
+}
+
+.std-article-content{
+  @extend %content-block;
+}
+
+
+/******************************************************************************/
+/* O que fazemos */
+/******************************************************************************/
+.services-article{
+  @extend %content-block;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+
+/******************************************************************************/
+/* Quem somos */
+/******************************************************************************/
+.about-article{
+  padding: 14em 0;
+  background: $blue url(../img/bg-about.png) repeat 50% 0;
+  background-attachment: fixed;
+
+  position: relative;
+  overflow: hidden;
+
+  &:before, &:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -1280px;
+  }
+
+
+  &:before{
+    top: 0;
+    border: 0px solid transparent;
+    border-right-width: 2560px;
+    border-top: 291px solid #fff;
+  }
+
+  &:after{
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 291px 2560px;
+    border-color: transparent transparent #fff transparent;
+  }
+
+
+  p{
+    line-height: 1.2;
+    @include rem(font-size, 22px);
+    @include smooth();
+  }
+}
+
+
+/******************************************************************************/
+/* Clientes */
+/******************************************************************************/
+.clients-article{
+  @extend %content-block;
+  padding-top: 0;
+  text-align: center;
+
+  p{
+    @include rem(font-size, 21px);
+    max-width: 24.762em;
+    margin: 1em auto;
+    @include smooth();
+  }
+}
+
+
+/******************************************************************************/
+/* Contato */
+/******************************************************************************/
+.contact-article{
+  background: $grey url(../img/bg-contact.png) repeat 50% 0;
+  background-attachment: fixed;
+  padding-bottom: 12em;
+}
+
+.contact-article-content{
+  text-align: center;
+}
+
+@media only screen and (min-width: 35em) { // 560px
+  .contact-article-content{
+    float: left;
+    text-align: right;
+    width: 46%;
+    margin-right: 2em;
+  }
+}
+
+@media only screen and (min-width: 48em) { // 768
+  .std-article{
+    padding: 15em 0;
+  }
+
+  .about-article{
+    padding: 33.75em 0;
+  }
+
+  .services-article{
+    padding-bottom: 6em;
+  }
+
+  .clients-article{
+    padding-top: 6em;
+  }
+
+  .service-item{
+    width: 23.5%;
+  }
+
+  .contact-article-content{
+    padding-top: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 53.125em){ //850px
+  .about-article p{
+    max-width: 49%;
+  }
+}
