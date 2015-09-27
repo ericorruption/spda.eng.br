@@ -28,7 +28,7 @@ $main-link-color: $brand-red;
 // BASIC MIXINS */
 //*****************************************************************************/
 
-@import "rem";
+@import "base/rem";
 
 //as seen on: https://github.com/ry5n/rem
 //on using rem: http://snook.ca/archives/html_and_css/font-size-with-rem
@@ -46,7 +46,7 @@ $main-link-color: $brand-red;
 // Beware of using this mixing with font shorthand: if the statement contain
 //commas - separating font families, it will not work;
 
-@import "mixins";
+@import "config/mixins";
 
 // FONT SMOOTHING
 //
@@ -80,7 +80,7 @@ $sprite-spacing: 3px;
 
 
 /* Reset / Normalize */
-@import "reset";
+@import "base/reset";
 
 /******************************************************************************/
 /* STRUCTURE */
@@ -660,7 +660,7 @@ img{
 }
 
 /* Helper Classes */
-@import "helpers";
+@import "base/helpers";
 
 
 /* MEDIA QUERIES */
@@ -875,4 +875,4 @@ img{
 }
 
 /* Print Styles */
-@import "print";
+@import "base/print";
