@@ -5,10 +5,10 @@
 project_path = File.expand_path("./",File.dirname(__FILE__))
 
 # Important! change the paths below to match your project setup
-css_dir = "css" # update to the path of your css files.
-sass_dir = "sass" # update to the path of your sass files.
-images_dir = "img" # update to the path of your image files.
-javascripts_dir = "js" # update to the path of your script files.
+css_dir = "dist/css" # update to the path of your css files.
+sass_dir = "src/scss" # update to the path of your sass files.
+images_dir = "src/img" # update to the path of your image files.
+javascripts_dir = "src/js" # update to the path of your script files.
 
 line_comments = false # if debugging (using chrome extension - set this to true)
 cache = true

@@ -1,0 +1,22 @@
+{
+  "name": "static-boilerplate",
+  "version": "0.1.0",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-plumber": "latest",
+    "gulp-postcss": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-compass": "latest",
+    "autoprefixer-core": "latest",
+    "postcss-opacity": "latest",
+    "postcss-import": "latest",
+    "webpack": "latest",
+    "bootstrap-sass": "latest",
+    "fastclick": "latest",
+    "normalize.css": "latest"
+  }
+}

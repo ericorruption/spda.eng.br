@@ -17,7 +17,7 @@
     <!-- one .png and one .ico file in your root for this to work. -->
     <link rel="icon" href="favicon.png">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/style.css">
 
     <!-- Review the viewport rule in the SASS file if you change the defaults below -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
 <body>
 <header class="main-header" role="banner" id="top">
     <div class="main-header-content">
-        <img class="logo" src="img/logo.png" alt="Assinatura visual SPDA">
+        <img class="logo" src="dist/img/logo.png" alt="Assinatura visual SPDA">
         <h1 class="main-title">SPDA Engenharia+Projetos</h1>
 
         <a href="#main-content" class="goto-content">Ir para o conteúdo principal</a>
@@ -54,7 +54,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/instalacoes-eletricas.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/instalacoes-eletricas.png" class="service-image" />
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/cabeamento-estruturado.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/cabeamento-estruturado.png" class="service-image" />
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/spda.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/spda.png" class="service-image" />
                     </div>
                 </div>
 
@@ -87,7 +87,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/entrada-de-energia.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/entrada-de-energia.png" class="service-image" />
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/laudos.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/laudos.png" class="service-image" />
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/ppci.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/ppci.png" class="service-image" />
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/seguranca-eletronica.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/seguranca-eletronica.png" class="service-image" />
                     </div>
                 </div>
 
@@ -131,7 +131,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/engenharia-consultiva.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/engenharia-consultiva.png" class="service-image" />
                     </div>
                 </div>
 
@@ -142,7 +142,7 @@
             <section class="service-item">
                 <div class="service-image-wrapper">
                     <div class="service-image-background">
-                        <img src="img/o-que-fazemos/projetos-suplementares.png" class="service-image" />
+                        <img src="dist/img/o-que-fazemos/projetos-suplementares.png" class="service-image" />
                     </div>
                 </div>
 
@@ -173,77 +173,77 @@
             <ul class="client-list">
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/banco-central.png" />
+                        <img class="client-list-image" src="dist/img/clientes/banco-central.png" />
                     </div>
                     <h3 class="client-list-title">Banco Central do Brasil</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/bb.png" />
+                        <img class="client-list-image" src="dist/img/clientes/bb.png" />
                     </div>
                     <h3 class="client-list-title">Banco do Brasil</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/banrisul.png" />
+                        <img class="client-list-image" src="dist/img/clientes/banrisul.png" />
                     </div>
                     <h3 class="client-list-title">Banrisul</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/caixa.png" />
+                        <img class="client-list-image" src="dist/img/clientes/caixa.png" />
                     </div>
                     <h3 class="client-list-title">Caixa Econômica Federal</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/gvt.png" />
+                        <img class="client-list-image" src="dist/img/clientes/gvt.png" />
                     </div>
                     <h3 class="client-list-title">GVT</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/nacional.png" />
+                        <img class="client-list-image" src="dist/img/clientes/nacional.png" />
                     </div>
                     <h3 class="client-list-title">Nacional</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/receita-federal.png" />
+                        <img class="client-list-image" src="dist/img/clientes/receita-federal.png" />
                     </div>
                     <h3 class="client-list-title">Receita Federal</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/taurus.png" />
+                        <img class="client-list-image" src="dist/img/clientes/taurus.png" />
                     </div>
                     <h3 class="client-list-title">Taurus</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/unimed.png" />
+                        <img class="client-list-image" src="dist/img/clientes/unimed.png" />
                     </div>
                     <h3 class="client-list-title">Unimed</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/vivo.png" />
+                        <img class="client-list-image" src="dist/img/clientes/vivo.png" />
                     </div>
                     <h3 class="client-list-title">Vivo</h3>
                 </li>
 
                 <li class="client-list-item">
                     <div class="client-list-image-wrapper">
-                        <img class="client-list-image" src="img/clientes/zaffari.png" />
+                        <img class="client-list-image" src="dist/img/clientes/zaffari.png" />
                     </div>
                     <h3 class="client-list-title">Zaffari</h3>
                 </li>
@@ -321,9 +321,9 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/libs/jquery.smooth-scroll.min.js"></script>
-<script src="js/libs/jquery.validate.min.js"></script>
-<script src="js/libs/jquery.placeholder.min.js"></script>
+<script src="dist/js/libs/jquery.smooth-scroll.min.js"></script>
+<script src="dist/js/libs/jquery.validate.min.js"></script>
+<script src="dist/js/libs/jquery.placeholder.min.js"></script>
 <script type="text/javascript">
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
