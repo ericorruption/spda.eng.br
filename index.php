@@ -168,7 +168,7 @@
     <article class="std-article clients-article">
             <h2 class="article-title" id="clientes"><span>Clientes</span></h2>
 
-            <p>Estamos orgulhosos de todos os nossos trabalhos, alguns deles foram feitos para os seguintes clientes:</p>
+            <p class="article-headline">Estamos orgulhosos de todos os nossos trabalhos, alguns deles foram feitos para os seguintes clientes:</p>
 
             <ul class="client-list">
                 <li class="client-list-item">
