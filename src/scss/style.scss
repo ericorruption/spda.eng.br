@@ -3,7 +3,6 @@
 //*****************************************************************************/
 // DEFAULT IMPORTS AND VARIABLES */
 //*****************************************************************************/
-
 @import "compass/css3";
 @import "compass/utilities/sprites/base";
 
@@ -121,6 +120,8 @@ img{
 @import "components/client-list";
 @import "components/contact-info";
 @import "components/contact-form";
+@import "components/square-grid";
+@import "components/magnific-popup";
 
 
 /* Helper Classes */

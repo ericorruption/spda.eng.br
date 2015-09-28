@@ -165,6 +165,76 @@
         </div>
     </article>
 
+    <article class="std-article">
+        <div class="std-article-content">
+            <h2 class="article-title" id="como-fazemos"><span>Como fazemos?</span></h2>
+            <p class="article-headline">Resultados de alguns de nossos principais projetos.</p>
+
+            <ul class="square-grid js-popup-gallery">
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/laudo-instalacoes-eletricas.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/laudo-instalacoes-eletricas.jpg" alt="Laudo de instalações Elétricas">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/laudo-spda.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/laudo-spda.jpg" alt="Laudo SPDA">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-ar-condicionado.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-ar-condicionado.jpg" alt="Projeto de ar condicionado">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-automacao.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-automacao.jpg" alt="Projeto de automação">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-entrada-medicao.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-entrada-medicao.jpg" alt="Projeto de entrada e medição">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-instalacoes-eletricas.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-instalacoes-eletricas.jpg" alt="Projeto de instalações elétricas">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-logica-telecomunicacoes.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-logica-telecomunicacoes.jpg" alt="Projeto de lógica e telecomunicações">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-ppci.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-ppci.jpg" alt="Projeto PPCI">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-residencial.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-residencial.jpg" alt="Projeto residencial">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-sonorizacao-multimidia.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-sonorizacao-multimidia.jpg" alt="Projeto de sonorização e multimídia">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-spda.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-spda.jpg" alt="Projeto SPDA">
+                    </a>
+                </li>
+                <li class="square-grid__item">
+                    <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-subestacao.jpg">
+                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-subestacao.jpg" alt="Projeto de subestação">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </article>
+
     <article class="std-article clients-article">
             <h2 class="article-title" id="clientes"><span>Clientes</span></h2>
 
@@ -324,6 +394,7 @@
 <script src="dist/js/libs/jquery.smooth-scroll.min.js"></script>
 <script src="dist/js/libs/jquery.validate.min.js"></script>
 <script src="dist/js/libs/jquery.placeholder.min.js"></script>
+<script src="dist/js/libs/jquery.magnific.min.js"></script>
 <script type="text/javascript">
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -387,6 +458,21 @@ ga('create','UA-37069465-1');ga('send','pageview');
                 .children().css('padding', Math.ceil((windowHeight-$top.children().height()) / 2) + 'px 0 0 0');
             }
         }).resize();
+
+        $('.js-popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Carregando imagem #%curr%...',
+            mainClass: 'mfp-with-zoom',
+            zoom: {
+                enabled: true, // By default it's false, so don't forget to enable it
+                duration: 300, // duration of the effect, in milliseconds
+                easing: 'ease-in-out',
+                opener: function(element) {
+                    return element.find('img');
+                }
+            }
+        });
     })
 
     var docWidth = $(window).innerWidth();

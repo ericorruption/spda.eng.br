@@ -8,7 +8,6 @@
 .std-article{
   font-weight: 500;
   padding: 4em 0;
-  //padding: 24% 0;
 }
 
 .std-article-content{
@@ -22,7 +21,6 @@
 .services-article{
   @extend %content-block;
   text-align: center;
-  padding-bottom: 0;
 }
 
 
@@ -30,35 +28,6 @@
 /* Quem somos */
 /******************************************************************************/
 .about-article{
-  padding: 14em 0;
-  background: $blue url(../img/bg-about.png) repeat 50% 0;
-  background-attachment: fixed;
-
-  position: relative;
-  overflow: hidden;
-
-  &:before, &:after{
-    content: '';
-    position: absolute;
-    left: 50%;
-    margin-left: -1280px;
-  }
-
-
-  &:before{
-    top: 0;
-    border: 0px solid transparent;
-    border-right-width: 2560px;
-    border-top: 291px solid #fff;
-  }
-
-  &:after{
-    bottom: 0;
-    border-style: solid;
-    border-width: 0 0 291px 2560px;
-    border-color: transparent transparent #fff transparent;
-  }
-
 
   p{
     line-height: 1.2;
@@ -73,15 +42,7 @@
 /******************************************************************************/
 .clients-article{
   @extend %content-block;
-  padding-top: 0;
   text-align: center;
-
-  p{
-    @include rem(font-size, 21px);
-    max-width: 24.762em;
-    margin: 1em auto;
-    @include smooth();
-  }
 }
 
 
@@ -112,18 +73,6 @@
     padding: 15em 0;
   }
 
-  .about-article{
-    padding: 33.75em 0;
-  }
-
-  .services-article{
-    padding-bottom: 6em;
-  }
-
-  .clients-article{
-    padding-top: 6em;
-  }
-
   .service-item{
     width: 23.5%;
   }
@@ -136,5 +85,7 @@
 @media only screen and (min-width: 53.125em){ //850px
   .about-article p{
     max-width: 49%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
