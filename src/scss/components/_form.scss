@@ -33,11 +33,13 @@
   top: 8em;
   left: 0;
   right: 0;
+  z-index: -1;
   @include transition();
 
   .success &{
     opacity: 1;
     filter: alpha(opacity=100);
+    z-index: 1;
   }
 
   strong{
