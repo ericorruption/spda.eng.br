@@ -1,0 +1,4 @@
+{
+  "name": "spda",
+  "exclude": ["node_modules","src/scss","src/fonts"]
+}
