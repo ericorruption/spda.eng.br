@@ -170,65 +170,77 @@
             <h2 class="article-title" id="como-fazemos"><span>Como fazemos?</span></h2>
             <p class="article-headline">Resultados de alguns de nossos principais projetos.</p>
 
-            <ul class="square-grid js-popup-gallery">
-                <li class="square-grid__item">
+            <ul class="square-grid project-list js-popup-gallery">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/laudo-instalacoes-eletricas.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/laudo-instalacoes-eletricas.jpg" alt="Laudo de instalações Elétricas">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/laudo-instalacoes-eletricas.jpg" alt="Laudo de Instalações Elétricas">
+                        Laudo de instalações Elétricas
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/laudo-spda.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/laudo-spda.jpg" alt="Laudo SPDA">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/laudo-spda.jpg" alt="Laudo SPDA">
+                        Laudo SPDA
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-ar-condicionado.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-ar-condicionado.jpg" alt="Projeto de ar condicionado">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-ar-condicionado.jpg" alt="Projeto de ar condicionado">
+                        Projeto de ar condicionado
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-automacao.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-automacao.jpg" alt="Projeto de automação">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-automacao.jpg" alt="Projeto de automação">
+                        Projeto de automação
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-entrada-medicao.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-entrada-medicao.jpg" alt="Projeto de entrada e medição">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-entrada-medicao.jpg" alt="Projeto de entrada e medição">
+                        Projeto de entrada e medição
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-instalacoes-eletricas.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-instalacoes-eletricas.jpg" alt="Projeto de instalações elétricas">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-instalacoes-eletricas.jpg" alt="Projeto de instalações elétricas">
+                        Projeto de instalações elétricas
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-logica-telecomunicacoes.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-logica-telecomunicacoes.jpg" alt="Projeto de lógica e telecomunicações">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-logica-telecomunicacoes.jpg" alt="Projeto de lógica e telecomunicações">
+                        Projeto de lógica e telecomunicações
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-ppci.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-ppci.jpg" alt="Projeto PPCI">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-ppci.jpg" alt="Projeto PPCI">
+                        Projeto PPCI
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-residencial.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-residencial.jpg" alt="Projeto residencial">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-residencial.jpg" alt="Projeto residencial">
+                        Projeto residencial
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-sonorizacao-multimidia.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-sonorizacao-multimidia.jpg" alt="Projeto de sonorização e multimídia">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-sonorizacao-multimidia.jpg" alt="Projeto de sonorização e multimídia">
+                        Projeto de sonorização e multimídia
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-spda.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-spda.jpg" alt="Projeto SPDA">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-spda.jpg" alt="Projeto SPDA">
+                        Projeto SPDA
                     </a>
                 </li>
-                <li class="square-grid__item">
+                <li class="square-grid__item project-list__item">
                     <a class="square-grid__link" href="dist/img/como-fazemos/full/projeto-subestacao.jpg">
-                        <img class="square-grid__image" src="dist/img/como-fazemos/thumb/projeto-subestacao.jpg" alt="Projeto de subestação">
+                        <img class="square-grid__image project-list__image" src="dist/img/como-fazemos/thumb/projeto-subestacao.jpg" alt="Projeto de subestação">
+                        Projeto de subestação
                     </a>
                 </li>
             </ul>
