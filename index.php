@@ -354,7 +354,7 @@
                 </p>
             </div>
 
-            <?php if ($isSuccess === true) : ?>
+            <?php if (isset($isSuccess) && $isSuccess === true) : ?>
 
             <?php else : ?>
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>#contato" role="form" class="std-form contact-form <?php if ($isSuccess === true){ echo 'success'; } ?>" method="post" id="contact-form">
@@ -374,7 +374,7 @@
                     class="std-input std-textarea" placeholder="Mensagem" required></textarea>
 
                     <button class="std-btn send-form-btn" id="send-form">Enviar</button>
-                    <?php if ($error === true) : ?>
+                    <?php if (isset($error) && $error === true) : ?>
                         <p class="error-message">Todos os campos são obrigatórios!</p>
                     <?php endif; ?>
                 </fieldset>
